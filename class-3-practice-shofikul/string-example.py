@@ -11,6 +11,7 @@
         string  immutable   , tai   output error
 
 asbe '''
+import math
 from itertools import repeat
 
 # text='hello world'
@@ -159,17 +160,88 @@ asbe '''
 
 
 
+#
+#
+#
+#
+# text= "       Hello World         "
+# print(text.lstrip())
+# print(text.rstrip())
+# print(text.strip())
+#
+#
 
 
 
 
-text= "       Hello World         "
-print(text.lstrip())
-print(text.rstrip())
-print(text.strip())
 
 
 
 
 
+# Math or Number Arithmetic calculation
+# a=10
+# b=20
+# c=5.67
+#
+# print("Addition:",a+b)
+# print("Subtraction:",a-b)
+# print("Multiplication:",a*b)
+# print("Division:",a/b)
+# print("Modulus:",a%b)
+#
+#
 
+#
+#
+#
+# x=10
+# y=3.1416
+#
+# print(float(x))
+# print(int(x))
+# print(str(x))
+# print(str(y))
+
+
+
+#
+# import math
+# print("square Root" ,math.sqrt(16))
+
+#
+# import math
+# print('square root ', math.sqrt(16))
+
+
+
+# power
+#
+# import math
+# print('power', math.pow(10,2))
+
+
+#
+# print('trigonomatric', math.sin(math.radians(90)))
+# print('trigonomatric', math.cos(math.radians(90)))
+# print('trigonomatric', math.tan(math.radians(45)))
+
+
+# print('logarithmic' , math.log(10) )
+# print('logarithmic' , math.log10(10) )
+
+
+
+# import  math
+# print(math.log(10))
+# print(math.log10(10))
+
+
+
+
+# Factorial 5*4*3*2*1=120
+print("Factorial",math.factorial(5))
+# print(math.factorial(5))
+
+
+print((math.factorial(5)))
