@@ -83,14 +83,47 @@ asbe '''
 
 
 
-
-
-text='hello '
-repeat=text*10
-print(repeat)
+#
+#
+# text='hello '
+# repeat=text*10
+# print(repeat)
 
 '''   jokhon  hello   quetation  ar  maje 
  aktim spce   dibo  tokhon  akto 
   apace    niye  ans   dekhabe    
    
    hello hello hello hello hello hello hello hello hello hello '''
+
+
+# again
+
+# name ='shofikul '
+# repeat=name*10
+#
+#
+# print(repeat)
+
+
+
+# formate using %
+''' %s   holo  string  placeholder '''
+''' %d  holo  number  placeholder '''
+
+
+#
+#
+#
+# name='shofikul'
+# age=22
+# combined='my name is %s and my age is %d' %(name,age)
+# print(combined)
+#
+#
+#
+
+
+name='shofikul islam'
+age=21
+merge='my name is %s and my age is %d' %(name , age)
+print(merge)
