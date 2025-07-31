@@ -122,8 +122,54 @@ asbe '''
 #
 #
 
+#
+# name='shofikul islam'
+# age=21
+# merge='my name is %s and my age is %d' %(name , age)
+# print(merge)
 
-name='shofikul islam'
-age=21
-merge='my name is %s and my age is %d' %(name , age)
-print(merge)
+
+
+#
+#
+# text = "hello world"
+# new_text=text.replace("world","python")
+# print(new_text)
+#
+#
+
+
+
+#
+#
+# text='hello  world '
+# new_text=text.replace('hello', 'shofikul')
+# print(new_text)
+
+
+#
+# text = "hello world"
+# textList=text.split()
+# print(textList)
+
+
+# output:['hello', 'world']
+
+
+
+
+
+
+
+
+
+text= "       Hello World         "
+print(text.lstrip())
+print(text.rstrip())
+print(text.strip())
+
+
+
+
+
+
