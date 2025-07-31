@@ -44,3 +44,14 @@ asbe '''
 # print(name)
 # print(demo)
 # print(demo1)
+
+
+
+
+text= "Hello World"
+print(text[-1])
+
+
+
+text= "Hello World"
+print(text[0:7])
