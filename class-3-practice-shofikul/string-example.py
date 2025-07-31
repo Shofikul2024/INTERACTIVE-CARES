@@ -11,6 +11,7 @@
         string  immutable   , tai   output error
 
 asbe '''
+from itertools import repeat
 
 # text='hello world'
 # text[0]='a'
@@ -61,9 +62,35 @@ asbe '''
 #
 
 
+#
+# string1='hello'
+# string2='world'
+#
+# combined=string1+ ' ' +string2
+# print(combined)
 
-string1='hello'
-string2='world'
 
-combined=string1+ ' ' +string2
-print(combined)
+
+# string repeatation
+
+#
+# text='hello'
+# repeat=text*10
+# print(repeat)
+
+
+'''   ar  output  hobe  amon    hellohellohellohellohellohellohellohellohellohello'''
+
+
+
+
+
+text='hello '
+repeat=text*10
+print(repeat)
+
+'''   jokhon  hello   quetation  ar  maje 
+ aktim spce   dibo  tokhon  akto 
+  apace    niye  ans   dekhabe    
+   
+   hello hello hello hello hello hello hello hello hello hello '''
