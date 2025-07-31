@@ -46,12 +46,24 @@ asbe '''
 # print(demo1)
 
 
+#
+#
+# text= "Hello World"
+# print(text[-1])
+#
+#
+#
+# text= "Hello World"
+# print(text[0:7])
+#
+# print(text[3:9])
+# print(text[:9])
+#
 
 
-text= "Hello World"
-print(text[-1])
 
+string1='hello'
+string2='world'
 
-
-text= "Hello World"
-print(text[0:7])
+combined=string1+ ' ' +string2
+print(combined)
